@@ -1,0 +1,52 @@
+
+.mood{
+    
+    height: 300px;
+    background-color: rgb(79, 153, 6);
+    background-image: url('../styles/pexels-george-desipris-748626.jpg');
+    /* background-size: cover; */
+    background-size: cover;
+    
+
+
+
+}
+
+ 
+
+
+h2{
+     font-size: 70px; 
+     text-decoration: line-through; 
+     text-align: center; 
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+}
+
+p{
+    text-align: center;
+    text-justify: auto;
+    text-justify: distribute-all-lines;
+
+}
+
+.Ami{
+    /* display: none; */
+    /* visibility: hidden */
+
+}
+
+.mis{
+    margin: 20px 30px 40px 50px;
+    border: 10px solid rgb(250, 40, 3);
+    box-shadow: 10px 10px 10px rgb(53, 50, 50);
+    background-color: cyan;
+
+
+}
+
+.lin{
+    background-color: rgb(204, 22, 16);
+    border: 2px solid rgb(228, 14, 139);
+    display: block;
+}
