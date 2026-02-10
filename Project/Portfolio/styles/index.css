@@ -269,6 +269,119 @@ hr{
     color: white;
     border-radius: 5px;
     border: none;
-    cursor: pointer;
-      
+    cursor: pointer;     
+}
+footer{
+    padding: 100px 200px;
+    display: flex;
+    gap: 120px;
+}
+.footer-colum{
+    width: 50% 
+}
+
+footer input[type="text"],footer input[type="Email"],footer textarea{
+ height: 40px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border: none;
+}
+.footer-title{
+    padding-bottom: 20px;
+    padding-top: 25px;
+    font-size: 24px;
+}
+.skill-descriptio{
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #474747;
+
+}
+
+.section-title{
+   
+   text-align: center;
+   
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff6ef;
+}
+
+.contact {
+  padding: 80px 60px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.contact-left,
+.contact-right {
+  width: 50%;
+}
+
+/* Left side */
+.contact-left h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.contact-left p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: #ff6a00;
+  margin-right: 15px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Right side */
+.contact-right h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-right form input,
+.contact-right form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  background: #fff;
+}
+
+.contact-right form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-right form button {
+  background: #ff6a00;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-right form button:hover {
+  background: #e55d00;
 }
