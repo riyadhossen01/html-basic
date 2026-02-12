@@ -1,0 +1,23 @@
+.parent{
+  padding: 20px;  
+background-color: aqua;
+display: flex;
+gap: 20px;
+justify-content: space-between;
+height: 400px;
+align-items: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.child{
+    border: 2px solid red;
+    background: rgb(160, 98, 221);
+    font-size: 30px;
+    padding: 20px;
+  
+    
+
+
+
+}

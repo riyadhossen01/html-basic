@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <Style>
+        .Container{
+            display: flex;
+            border: 2px solid black;
+            height: 500px;
+            justify-content: space-evenly;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            box-shadow: 0 0 0.6PX black;
+           
+        
+         
+        
+        }
+        .Container > .DIV {
+            gap: 20PX;
+        }
+        .DIV{
+            display: flex;
+           
+            
+      
+            
+        }
+       
+        
+        .box{
+            border: 3px double black;
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+        }
+
+
+    </Style>
+
+
+</head>
+<body>
+    <h1>FlexBox Layout</h1>
+    <div class="Container">
+        
+            <div class="DIV">
+            <div class="box">box-1</div>
+            <div class="box">box-2</div>
+            <div class="box">box-3</div>
+        </div>
+        <div class="DIV">
+            <div class="box">box-1</div>
+            <div class="box">box-2</div>
+            <div class="box">box-3</div>
+
+        </div>
+         <div class="DIV">
+            <div class="box">box-1</div>
+            <div class="box">box-2</div>
+            <div class="box">box-3</div>
+
+        </div>
+        <div class="DIV">
+            <div class="box">box-1</div>
+            <div class="box">box-2</div>
+            <div class="box">box-3</div>
+
+        </div>
+        
+
+    </div>
+
+
+
+    
+</body>
+</html>
